@@ -1,0 +1,9 @@
+#block{
+    width: 250px;
+    height: 250px;
+    background: #544444;
+}
+#block1{
+    width: 35%;
+    float: left;
+}

@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>JS</title>
+    <link href="style.css" rel=stylesheet type="text/css">
+    <script src="js.js"></script>
 </head>
-<style>
-    #block{
-        width: 200px;
-        height: 100px;
-        background: #544444;
-    }
-</style>
+
 <body>
-    <div class="block1">
-        <p>верхний левый угол
+    <div id="block1">
+        <div class="">
+            <p>Верхний левый угол:</p>
             <input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
             <input type="text" id="ttl" value="0">
-        </p>
-        <p>верхний правый угол
+        </div>
+        <div class="">
+            <p>Верхний правый угол</p>
             <input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()">
             <input type="text" id="ttr" value="0">
-        </p>
-        <p>нижний левый угол
+        </div>
+        <div class="">
+            <p>Нижний левый угол</p>
             <input type="range" id="rbr" min="0" max="100" value="0" oninput="fun1()">
             <input type="text" id="tbr" value="0">
-        </p>
-        <p>Нижний правый угол
+        </div>
+        <div class="">
+            <p>Нижний правый угол</p>
             <input type="range" id="rbl" min="0" max="100" value="0" oninput="fun1()">
             <input type="text" id="tbl" value="0">
-        </p>
+        </div>
     </div>
-    <div id="block"></div>
-
-<script src="js.js"></script>
+    <div id="block1">
+        <div id="block"></div>
+    </div>
 </body>
+
 </html>
